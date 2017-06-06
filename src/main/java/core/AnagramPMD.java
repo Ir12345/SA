@@ -3,9 +3,9 @@ package core;
 
 public class AnagramPMD {
 	
-	public boolean abc(Object o) {return this == o;}
-	int x;
-	public void foo2() {x = x;}
+//	public boolean abc(Object o) {return this == o;}
+//	int x;
+//	public void foo2() {x = x;}
 	
 	public static boolean validate(String s, String t) {
         if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
