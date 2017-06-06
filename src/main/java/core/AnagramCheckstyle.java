@@ -37,4 +37,6 @@ public class AnagramCheckstyle {
 	     System.out.println("Debit Card and Bad Credit is anagram? - " + AnagramCheckstyle.validate("Debit Card", "Bad Credit"));
 	    System.out.println("Охренеть and Не хрена себе is anagram? - " + AnagramCheckstyle.validate("Охренеть", "Не хрена себе"));
 	       }
+	
+	
 }
