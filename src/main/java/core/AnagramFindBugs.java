@@ -2,9 +2,9 @@ package core;
 
 public class AnagramFindBugs {
 	
-//	public boolean abc(Object o) {return this == o;}
-//	int x;
-//	public void foo2() {x = x;}
+	public boolean abc(Object o) {return this == o;}
+	int x;
+	public void foo2() {x = x;}
 
 	public static boolean validate(String s, String t) {
         if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
@@ -21,20 +21,20 @@ public class AnagramFindBugs {
          return value == 0;
   }
 	
-//	public void foo()  {
-//	
-//		for (int i = 0; i < 10; i++) {
-//				
-//			for (int k = 0; k < 20; i++) {
-//					
-//					System.out.println("Hello");
-//				}
-//			}
-//		}
-//		
-//		void bar() {
-//			for (;true;);
-//		}
+	public void foo()  {
+	
+		for (int i = 0; i < 10; i++) {
+				
+			for (int k = 0; k < 20; i++) {
+					
+					System.out.println("Hello");
+				}
+			}
+		}
+		
+		void bar() {
+			for (;true;);
+		}
 	public static void main(String[] args) {
 
 	     System.out.println("Debit Card and Bad Credit is anagram? - " + AnagramFindBugs.validate("Debit Card", "Bad Credit"));
